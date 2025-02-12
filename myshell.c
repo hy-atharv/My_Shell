@@ -27,8 +27,8 @@ void init_shell()
 {
 
   printf("\n\n\n\033[1;30m//---------------------------------------------------------------------\\\\\n\n\n\n");
-  printf("\\_____________________________ \033[1;32mLINUX SHELL\033[1;30m ____________________________/\n\n");
-  //printf("\\__________________ \033[1;32mDEVELOPED BY ATHARV KUMAR TIWARI\033[1;30m __________________/\n\n\n\n");
+  printf("\\_____________________________ \033[1;32mMY SHELL\033[1;30m ____________________________/\n\n");
+  printf("\\__________________ \033[1;32mDEVELOPED BY ATHARV KUMAR TIWARI\033[1;30m __________________/\n\n\n\n");
   printf("\\\\---------------------------------------------------------------------//\033[1;32m\n\n\n");
   
 
@@ -185,8 +185,8 @@ void exec_args_piped(char** parsed, char** parsed_pipe)
 void Help()
 {
   
-  puts("\n\\_____________________________ \033[1;32mLINUX SHELL\033[1;0m ____________________________/\n\n"
-       //"\\__________________ \033[1;32mDEVELOPED BY ATHARV KUMAR TIWARI\033[1;0m __________________/\n\n\n"
+  puts("\n\\_____________________________ \033[1;32mMY SHELL\033[1;0m ____________________________/\n\n"
+       "\\__________________ \033[1;32mDEVELOPED BY ATHARV KUMAR TIWARI\033[1;0m __________________/\n\n\n"
        "\033[1;32mFEATURES OF THIS SHELL:\n"
        "> Written in C Programming Language\n"
        "> Improper Space Handling in Commands\n"
