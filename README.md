@@ -3,15 +3,15 @@
 
 ### ⚙️Features
 
-**- Written in C**
+- **Written in C**
 
-**- Supports all general POSIX commands**
+- **Supports all general POSIX commands**
 
-**- Handles improper space in commands**
+- **Handles improper space in commands**
 
-**- Supports Piping**
+- **Supports Piping**
 
-**- Runs in both Unix and Linux based operating systems**
+- **Runs in both Unix and Linux based operating systems**
 
 
 
@@ -27,7 +27,7 @@
 ***MY SHELL in macOS***
 
 
-### ▶️Executing in Linux based systems
+### 💻Executing in Linux based systems
 
 **1. Install the readline library by GNU**
 
@@ -59,8 +59,42 @@ echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bash_prof
 ```
 echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bashrc
 ```
-**Close and reopen terminal.**
-**Now you should be able to run myshell command from anywhere**
+ **Close and reopen terminal.**
+ **Now you should be able to run myshell command from anywhere**
+```
+myshell
+```
+
+### 💻Executing in macOS (Unix based system)
+
+**Since macOS has libedit by default, that has the libreadline library, we don't really have to install the GNU readline library atleast in this case.**
+
+**1. Download the [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c)**
+
+**2. Navigate to the directory where you downloaded [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c)**
+
+**3. Link the readline and compile the [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c) file and give a name for the output file**
+
+```
+gcc shell.c -lreadline -o myshell
+```
+
+**4. Run it**
+
+```
+./myshell
+```
+
+**5. Run from anywhere by setting the $PATH variable**
+
+```
+echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bash_profile
+```
+```
+echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bashrc
+```
+ **Close and reopen terminal.**
+ **Now you should be able to run myshell command from anywhere**
 ```
 myshell
 ```
