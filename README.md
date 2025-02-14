@@ -35,4 +35,32 @@
 sudo apt-get install libreadline-dev
 ```
 
-**2. Download the [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c) in this repo**
+**2. Download the [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c)**
+
+**3. Navigate to the directory where you downloaded [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c)**
+
+**4. Link the readline library and compile the [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c) file and give a name for the output file**
+
+```
+gcc shell.c -lreadline -o myshell
+```
+
+**5. Run it**
+
+```
+./myshell
+```
+
+**6. Run from anywhere by setting the $PATH variable**
+
+```
+echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bash_profile
+```
+```
+echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bashrc
+```
+**Close and reopen terminal.**
+**Now you should be able to run myshell command from anywhere**
+```
+myshell
+```
