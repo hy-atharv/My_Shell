@@ -88,10 +88,10 @@ gcc shell.c -lreadline -o myshell
 **5. Run from anywhere by setting the $PATH variable**
 
 ```
-echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bash_profile
+echo 'export PATH="/path_to_directory/where_myshell_exists:$PATH"' >> ~/.zshrc
 ```
 ```
-echo 'export PATH=$PATH:/path_to_directory/where_myshell_exists' >> ~/.bashrc
+echo 'export PATH="/path_to_directory/where_myshell_exists:$PATH"' >> ~/.bash_profile
 ```
  **Close and reopen terminal.**
  **Now you should be able to run myshell command from anywhere**
