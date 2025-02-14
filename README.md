@@ -98,3 +98,9 @@ echo 'export PATH="/path_to_directory/where_myshell_exists:$PATH"' >> ~/.bash_pr
 ```
 myshell
 ```
+
+
+### 🔨Under Development (might work on it in near future)
+- **Terminal based game**
+- **Cybersecurity toolkit**
+
