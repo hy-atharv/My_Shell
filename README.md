@@ -35,4 +35,4 @@
 sudo apt-get install libreadline-dev
 ```
 
-**2. Download the ![myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c) in this repo**
+**2. Download the [myshell.c](https://github.com/hy-atharv/My_Shell/blob/9e532c6a52e195d55d067411fdec83055ecee1e7/myshell.c) in this repo**
